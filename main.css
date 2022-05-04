@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas{
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    padding: 1rem;
+    border: none;
+    background-color: #ccc;
+    color:black;
+    
+}
+p{
+    margin-top: '1rem';
+}
