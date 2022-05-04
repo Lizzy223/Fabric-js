@@ -9,12 +9,7 @@ const initCanvas = (id) =>{
 const canvas = initCanvas('canvas');
 canvas.renderAll();
 
-
-//mouse:over
-
-canvas.on("mouse:over", (e)=>{
-    console.log(e)
-})
+//upload image function
 
 document.getElementById("uploader").onchange = function(e) {
     var reader = new FileReader();
@@ -37,7 +32,7 @@ document.getElementById("uploader").onchange = function(e) {
     reader.readAsDataURL(e.target.files[0]);
   }
   
-//zoom in and zoom out
+//zoom in and zoom out function
 
   canvas.on('mouse:down', function(e) {
     if (e.target) {
